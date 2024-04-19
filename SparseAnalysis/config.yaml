@@ -1,0 +1,16 @@
+data_dir: "./data/cifar10"
+download_weights: 0
+test_phase: 0
+dev: 0
+logger: "wandb"
+classifier: "vgg11_bn"
+pretrained: 1
+precision: 32
+batch_size: 128
+max_epochs: 2
+num_workers: 8
+gpu_id: "0"
+learning_rate: 0.01
+weight_decay: 0.01
+sparse_ratio: 0.9
+pruning_method: "level"
